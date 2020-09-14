@@ -21,7 +21,7 @@ public class EnterClassNameHere extends AbstractCLIJxPlugin implements CLIJMacro
 
     @Override
     public String getParameterHelpText() {
-        return "Image input, ByRef Image destination, Enter_Paramaters_Here";
+        return "Image input, ByRef Image destination, enter_parameters_here";
     }
 
     @Override
@@ -31,7 +31,7 @@ public class EnterClassNameHere extends AbstractCLIJxPlugin implements CLIJMacro
 
     @Override
     public boolean executeCL() {
-        return enter_function_name_here(getCLIJx(), (ClearCLBuffer) args[0], (ClearCLBuffer) args[1], asFloat(args[2]));
+        return enter_function_name_here(getCLIJx(), (ClearCLBuffer) args[0], (ClearCLBuffer) args[1], 1f /*enter_value_parsers_here*/);
     }
 
     public static boolean enter_function_name_here(CLIJx clijx, ClearCLBuffer pushed, ClearCLBuffer result, Float enter_typed_parameters_here) {
