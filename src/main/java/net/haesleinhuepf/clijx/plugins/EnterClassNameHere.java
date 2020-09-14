@@ -1,4 +1,4 @@
-package net.haesleinhuepf.clijx;
+package net.haesleinhuepf.clijx.plugins;
 
 
 import net.haesleinhuepf.clij.clearcl.ClearCLBuffer;
